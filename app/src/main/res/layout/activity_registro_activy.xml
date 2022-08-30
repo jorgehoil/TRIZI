@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".RegistroActivy">
+
+    <ProgressBar
+        android:id="@+id/pbRegistroDatos"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbRegistroDatos"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tus datos"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:gravity="end" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombres*"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edNombres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_desing"
+                android:ems="10"
+                android:hint="Marcos Antonio"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gris" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellidos*"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_desing"
+                android:ems="10"
+                android:hint="Pérez Pérez"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gris" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirección y Localidad*"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_desing"
+                android:ems="10"
+                android:hint="Calle 38 #45, Mamá, Yucatán"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gris" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edad*"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_desing"
+                android:ems="10"
+                android:hint="18"
+                android:inputType="date|textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gris" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sexo*"
+                android:textColor="@color/white" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/txt_desing">
+
+                <RadioButton
+                    android:id="@+id/rbFemenino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Femenino"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rbMasculino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rbIndefinido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prefiero no decir"
+                    android:textColor="@color/white" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foto perfil*"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imCargaFoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/ic_load_image" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/color_amarillo"
+                android:enabled="false"
+                android:text="GUARDAR" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

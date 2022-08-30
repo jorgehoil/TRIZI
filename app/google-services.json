@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "579808485260",
+    "firebase_url": "https://trizi-bf6f1.firebaseio.com",
+    "project_id": "trizi-bf6f1",
+    "storage_bucket": "trizi-bf6f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579808485260:android:57a6dd740e845721cec0a9",
+        "android_client_info": {
+          "package_name": "com.carloshoil.trizi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579808485260-bur9hbk7vulujg28omgavvsb3dvg5uk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carloshoil.trizi",
+            "certificate_hash": "30b83170b81aa5abfd1e49bbcc2692ae47a99e81"
+          }
+        },
+        {
+          "client_id": "579808485260-35jkqp5ei32fpf7p42cp74ogj9c54ao3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZzRz2bcX85IIW0X91M356n2-59en_-D4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579808485260-35jkqp5ei32fpf7p42cp74ogj9c54ao3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579808485260:android:7855c4c39445b02bcec0a9",
+        "android_client_info": {
+          "package_name": "com.carloshoil.triziconductor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579808485260-um6o6tbj4b7v5498psccqojuu46sgh1n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carloshoil.triziconductor",
+            "certificate_hash": "30b83170b81aa5abfd1e49bbcc2692ae47a99e81"
+          }
+        },
+        {
+          "client_id": "579808485260-35jkqp5ei32fpf7p42cp74ogj9c54ao3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZzRz2bcX85IIW0X91M356n2-59en_-D4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579808485260-35jkqp5ei32fpf7p42cp74ogj9c54ao3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579808485260:android:f086661693c36653cec0a9",
+        "android_client_info": {
+          "package_name": "com.carloshoil.trizipago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579808485260-b1p3uh23njr24f85g90n4t89ikg3mamg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carloshoil.trizipago",
+            "certificate_hash": "30b83170b81aa5abfd1e49bbcc2692ae47a99e81"
+          }
+        },
+        {
+          "client_id": "579808485260-35jkqp5ei32fpf7p42cp74ogj9c54ao3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZzRz2bcX85IIW0X91M356n2-59en_-D4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579808485260-35jkqp5ei32fpf7p42cp74ogj9c54ao3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

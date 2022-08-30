@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TRIZI</string>
+    <string name="name_filepreferences">trizi_sharedPreferences</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoiam9yZ2Vob2lsMSIsImEiOiJjazhucmlodWswOTEzM2xvNGhwdGthbjFrIn0.DSfuT_Ry9TkvP3JzUm89jQ</string>
+    <string name="ESTATUS">cEstatus</string>
+    <string name="UID">cUID</string>
+    <string name="ENVERIFICACION">lVerificacion</string>
+    <string name="TELEFONOVERIFICACION">cTelefonoVerificacion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
